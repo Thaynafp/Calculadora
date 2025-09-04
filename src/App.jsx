@@ -7,7 +7,7 @@ import "./css/calculadora.css"
 function App() {
   return (
     <div className="App">
-      <h1>Calculadora</h1>
+      <Header />
       <Calculadora />
     </div>
   );
