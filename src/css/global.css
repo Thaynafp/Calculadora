@@ -1,0 +1,17 @@
+:root{
+    --fontColor1: #ffff;
+    --fontColor2: #000;
+    --bgColor1: #505454;
+    --bgColor2:#ffff;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background:var(--bgColor1);
+}
