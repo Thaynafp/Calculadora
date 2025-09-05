@@ -52,6 +52,6 @@ Para executar este projeto em sua máquina local, siga os passos abaixo.
     npm run dev
     ```
 
-5.  Abra seu navegador e acesse [http://localhost:5173](https://www.google.com/search?q=http://localhost:5173) (ou a porta que o Vite indicar no terminal).
+5.  Abra seu navegador e acesse [http://localhost:5173](https://www.google.com/search?q=http://localhost:5173) (ou entre[pelo link](https://calculadora-sandy-nine.vercel.app/) para ser direcionado para o repositório no Vercel).
 
 
