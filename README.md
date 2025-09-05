@@ -1,12 +1,68 @@
-# React + Vite
+# Calculadora Digital com React e Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de uma calculadora digital simples, desenvolvida com React e Vite. A interface foi estilizada com CSS puro, apresentando um design moderno e responsivo que se adapta a diferentes tamanhos de tela, desde desktops até dispositivos móveis.
 
-Currently, two official plugins are available:
+## Visualização do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+  - **Operações Aritméticas Básicas**: Realiza cálculos de soma, subtração, multiplicação e divisão.
+  - **Suporte a Decimais**: Permite a inserção de números decimais utilizando o ponto.
+  - **Limpeza de Visor**: Botão "C" para limpar o cálculo atual e reiniciar.
+  - **Design Responsivo**: A interface se ajusta perfeitamente a telas de celulares, tablets e desktops.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologias Utilizadas
+
+  - **[React.js](https://react.dev/)**: Biblioteca JavaScript para a construção da interface de usuário.
+  - **[Vite](https://vitejs.dev/)**: Ferramenta de build moderna para um desenvolvimento front-end mais rápido.
+  - **CSS Puro**: A estilização foi feita com CSS, utilizando variáveis para permitir uma fácil customização do tema.
+
+## Como Executar o Projeto
+
+Para executar este projeto em sua máquina local, siga os passos abaixo.
+
+### Pré-requisitos
+
+  - [Node.js](https://nodejs.org/) (versão 18 ou superior)
+  - [NPM](https://www.npmjs.com/) (geralmente instalado junto com o Node.js)
+
+### Instalação e Execução
+
+1.  **Clone o repositório** (ou simplesmente descompacte os arquivos em uma pasta):
+
+    ```bash
+    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    ```
+
+2.  **Navegue até a pasta do projeto**:
+
+    ```bash
+    cd nome-do-repositorio
+    ```
+
+3.  **Instale as dependências** do projeto:
+
+    ```bash
+    npm install
+    ```
+
+4.  **Inicie o servidor de desenvolvimento**:
+
+    ```bash
+    npm run dev
+    ```
+
+5.  Abra seu navegador e acesse [http://localhost:5173](https://www.google.com/search?q=http://localhost:5173) (ou a porta que o Vite indicar no terminal).
+
+## Customização de Cores
+
+As cores da calculadora podem ser facilmente alteradas editando as variáveis CSS no início do arquivo `src/css/global.css`.
+
+```css
+:root {
+    --fontColor1: #ffff;
+    --fontColor2: #000;
+    --bgColor1: #2df0f0;
+    --bgColor2:#f1e9e9;
+}
+```
