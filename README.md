@@ -54,15 +54,4 @@ Para executar este projeto em sua máquina local, siga os passos abaixo.
 
 5.  Abra seu navegador e acesse [http://localhost:5173](https://www.google.com/search?q=http://localhost:5173) (ou a porta que o Vite indicar no terminal).
 
-## Customização de Cores
 
-As cores da calculadora podem ser facilmente alteradas editando as variáveis CSS no início do arquivo `src/css/global.css`.
-
-```css
-:root {
-    --fontColor1: #ffff;
-    --fontColor2: #000;
-    --bgColor1: #2df0f0;
-    --bgColor2:#f1e9e9;
-}
-```
