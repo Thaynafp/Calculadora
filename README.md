@@ -31,13 +31,13 @@ Para executar este projeto em sua máquina local, siga os passos abaixo.
 1.  **Clone o repositório** (ou simplesmente descompacte os arquivos em uma pasta):
 
     ```bash
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    git clone https://github.com/Thaynafp/Calculadora.git
     ```
 
 2.  **Navegue até a pasta do projeto**:
 
     ```bash
-    cd nome-do-repositorio
+    cd Calculadora
     ```
 
 3.  **Instale as dependências** do projeto:
