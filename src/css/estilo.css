@@ -6,3 +6,10 @@
     text-align:center;
     align-items: center;
 }
+
+@media (max-width: 480px) {
+    body {
+        /* Garante que não haja overflow e o fundo ocupe a tela toda */
+        height: 100%;
+    }
+}
