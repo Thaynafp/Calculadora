@@ -3,6 +3,10 @@
     --fontColor2: #000;
     --bgColor1: #505454;
     --bgColor2:#ffff;
+    --bgVisor:#333;
+    --bgTecla:#d0d0d0;
+    --bgTeclaOperador: #f9a825;
+    --bgOperadorHover: #f57f17;
 }
 
 *{

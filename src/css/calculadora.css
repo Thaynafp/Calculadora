@@ -1,0 +1,80 @@
+.calculadora {
+    width: 320px;
+    background: var(--fontColor2);
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.visor {
+    background-color: var(--bgVisor);
+    color: var(--fontColor1);
+    font-size: 2.5em;
+    text-align: right;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.teclado {
+    display: flex;
+}
+
+.teclas-input {
+    width: 300px;
+}
+
+.teclas-funcao {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.teclas-digitos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 8px;
+}
+
+.teclas-operadores {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin-left: 8px;
+}
+
+.tecla {
+    background-color: var(--fontColor1);
+    border: none;
+    font-size: 1.5em;
+    padding: 20px 0;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.tecla:hover {
+    background-color: var(--bgTecla);
+}
+
+.teclas-operadores .tecla {
+    background-color: var(--bgTeclaOperador);
+    border-radius: 20px;
+    min-width: 30px;
+}
+
+.teclas-operadores .tecla:hover {
+    background-color: var(--bgOperadorHover);
+}
+
+.tecla-limpar {
+    grid-column: 1 / 4;
+    border-radius: 35px; 
+}
+
+.tecla-0 {
+    grid-column: 1 / 3;
+    border-radius: 35px; 
+}
